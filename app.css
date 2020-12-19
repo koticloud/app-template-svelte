@@ -1,0 +1,29 @@
+@keyframes svelte-1hcq98g-fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.svelte-1hcq98g {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.svelte-1hcq98g:focus {
+  outline: none; }
+
+main.svelte-1hcq98g {
+  text-align: center;
+  padding: 1em;
+  max-width: 240px;
+  margin: 0 auto; }
+
+h1.svelte-1hcq98g {
+  color: green;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 100; }
+
+@media (min-width: 640px) {
+  main.svelte-1hcq98g {
+    max-width: none; } }
