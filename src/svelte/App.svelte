@@ -1,7 +1,7 @@
 <script>
 	import '../sass/app.scss';
 
-	export let title;
+	let title = 'Koti Cloud App Template with Svelte';
 </script>
 
 <main>
@@ -9,5 +9,7 @@
 </main>
 
 <style lang="scss">
-	//
+	main {
+		flex: 1;
+	}
 </style>

@@ -46,10 +46,10 @@ export default {
 			},
 			preprocess: preprocess()
 		}),
-		// we'll extract any component SASS out into
+		// we'll extract any component CSS/SASS out into
 		// a separate file - better for performance
-		css({ output: 'app.css' }),
 		scss(),
+		css({ output: 'app.css' }),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
