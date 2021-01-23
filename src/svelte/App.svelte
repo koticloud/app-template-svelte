@@ -7,7 +7,6 @@
 
 	import pages from '../js/pages.js';
 
-	
 	onMount(() => {
 		Navigator.setPages(pages);
 		Navigator.goTo('home');
