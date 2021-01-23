@@ -6,6 +6,7 @@ import { terser } from 'rollup-plugin-terser';
 import preprocess from 'svelte-preprocess';
 import scss from 'rollup-plugin-scss';
 import css from 'rollup-plugin-css-only';
+import babel from '@rollup/plugin-babel';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -33,7 +34,7 @@ function serve() {
 export default {
 	input: 'src/js/app.js',
 	output: {
-		sourcemap: true,
+		sourcemap: false,
 		format: 'iife',
 		name: 'app',
 		file: 'bin/app.js'
@@ -45,6 +46,11 @@ export default {
 				dev: !production
 			},
 			preprocess: preprocess()
+		}),
+		babel({
+			exclude: 'node_modules/**',
+			babelHelpers: 'bundled',
+			configFile: './.babelrc',
 		}),
 		// we'll extract any component CSS/SASS out into
 		// a separate file - better for performance
