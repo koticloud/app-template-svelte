@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 
 	import '../sass/app.scss';
-	import { Page } from '../../../sdk/v0.4.x/svelte-components.js';
+	import { PageRenderer } from '../../../sdk/v0.4.x/svelte-components.js';
 	import { Navigator } from '../../../sdk/v0.4.x/sdk.js';
 
 	import pages from '../js/pages.js';
@@ -14,7 +14,7 @@
 </script>
 
 <main>
-	<Page/>
+	<PageRenderer/>
 </main>
 
 <style lang="scss">

@@ -14,6 +14,6 @@ rm -rf .git
 npm install
 ```
 
-To build the app use one of these commands (uses [laravel-mix](https://github.com/JeffreyWay/laravel-mix)):
+To build the app use one of these commands:
 - `npm run dev` - run development server with hot reloading feature
 - `npm run build` - build the app for production
