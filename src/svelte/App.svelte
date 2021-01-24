@@ -13,13 +13,13 @@
 	});
 </script>
 
-<main>
-	<PageRenderer/>
-</main>
-
 <style lang="scss">
 	main {
 		flex: 1;
 		text-align: center;
 	}
 </style>
+
+<main>
+	<PageRenderer/>
+</main>
