@@ -54,8 +54,8 @@ export default {
 		}),
 		// we'll extract any component CSS/SASS out into
 		// a separate file - better for performance
-		scss(),
-		css({ output: 'app.css' }),
+		scss({ outputStyle: 'compressed' }),
+		css({ output: 'app.css', outputStyle: 'compressed' }),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
