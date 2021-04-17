@@ -1,5 +1,5 @@
 <script>
-    import { PageLink } from '../../../../sdk/v0.4.x/svelte-components.js';
+    import { PageLink } from '../../../../sdk/v0.5.x/svelte-components.js';
 </script>
 
 <h1>Home Page</h1>

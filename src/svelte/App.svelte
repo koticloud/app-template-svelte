@@ -2,8 +2,8 @@
     import { onMount } from 'svelte';
 
     import '../sass/app.scss';
-    import { PageRenderer } from '../../../sdk/v0.4.x/svelte-components.js';
-    import { Navigator } from '../../../sdk/v0.4.x/sdk.js';
+    import { PageRenderer } from '../../../sdk/v0.5.x/svelte-components.js';
+    import { Navigator } from '../../../sdk/v0.5.x/sdk.js';
 
     import pages from '../js/pages.js';
 
